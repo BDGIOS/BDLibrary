@@ -1,0 +1,1 @@
+../../../../../Pod/OpenSource/ZEasing/Pod/Classes/ZEasing+Quintic.h

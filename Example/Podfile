@@ -1,7 +1,10 @@
+
+
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'BDLibrary', :exclusive => true do
-  pod "BDLibrary", :path => "../"
+  pod 'AFNetworking', '~> 2.5.0'
+  #pod "BDLibrary", :path => "../"
 end
 
 target 'Tests', :exclusive => true do

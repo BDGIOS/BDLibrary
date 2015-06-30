@@ -1,0 +1,3 @@
+PODS_TESTS_BDLIBRARY_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/OpenSource/CrabCrashReportSDK"
+PODS_TESTS_BDLIBRARY_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/OpenSource/CrabCrashReportSDK"
+PODS_TESTS_BDLIBRARY_OTHER_LDFLAGS = -l"CrabCrashReport" -l"z.1.2.5" -framework "CrashReporter" -framework "UIKit"

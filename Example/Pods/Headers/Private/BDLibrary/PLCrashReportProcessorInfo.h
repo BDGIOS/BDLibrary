@@ -1,1 +1,1 @@
-../../../../../Pod/OpenSource/CrabCrashReportSDK/CrashReporter.framework/Versions/A/Headers/PLCrashReportProcessorInfo.h
+../../../../../Pod/Component/CrabCrashReportSDK/CrashReporter.framework/Versions/A/Headers/PLCrashReportProcessorInfo.h

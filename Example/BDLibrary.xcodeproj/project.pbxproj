@@ -8,18 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		278DB76B2081918DBE8910D1 /* libPods-BDLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D9B6BDE14267D8631D4AF0 /* libPods-BDLibrary.a */; };
-		38BFFE2E1B038FF600436F09 /* BaseHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BFFE261B038FF600436F09 /* BaseHttpRequest.m */; };
-		38BFFE301B038FF600436F09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BFFE2A1B038FF600436F09 /* BaseViewController.m */; };
-		38BFFE311B038FF600436F09 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BFFE2D1B038FF600436F09 /* UIView+Util.m */; };
-		38BFFE371B03906B00436F09 /* BDDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BFFE361B03906B00436F09 /* BDDeviceUtil.m */; };
 		38DC4ED01B424D3B00DDF851 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4ECF1B424D3B00DDF851 /* CFNetwork.framework */; };
 		38DC4ED21B424D4500DDF851 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4ED11B424D4500DDF851 /* MobileCoreServices.framework */; };
 		38DC4ED41B424D4E00DDF851 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4ED31B424D4E00DDF851 /* QuartzCore.framework */; };
 		38DC4ED61B424D5700DDF851 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4ED51B424D5700DDF851 /* SystemConfiguration.framework */; };
 		38DC4ED81B424D6000DDF851 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4ED71B424D6000DDF851 /* libz.1.2.5.dylib */; };
-		38DC4EDE1B4257E200DDF851 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4EDC1B4257E200DDF851 /* CrashReporter.framework */; };
-		38DC4EDF1B4257E200DDF851 /* libCrabCrashReport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4EDD1B4257E200DDF851 /* libCrabCrashReport.a */; };
-		38DC4F5A1B42794500DDF851 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4F591B42794500DDF851 /* libBaiduMobStat.a */; };
 		38DC4F5C1B427A8300DDF851 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4F5B1B427A8300DDF851 /* CoreLocation.framework */; };
 		38DC4F5E1B427A9400DDF851 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4F5D1B427A9400DDF851 /* CoreTelephony.framework */; };
 		38DC4F601B427ACE00DDF851 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC4F5F1B427ACE00DDF851 /* libstdc++.dylib */; };
@@ -53,25 +46,11 @@
 
 /* Begin PBXFileReference section */
 		13529E6175F1925DA4A93EDE /* Pods-BDLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDLibrary/Pods-BDLibrary.release.xcconfig"; sourceTree = "<group>"; };
-		38BFFE251B038FF600436F09 /* BaseHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHttpRequest.h; sourceTree = "<group>"; };
-		38BFFE261B038FF600436F09 /* BaseHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHttpRequest.m; sourceTree = "<group>"; };
-		38BFFE291B038FF600436F09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		38BFFE2A1B038FF600436F09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		38BFFE2C1B038FF600436F09 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
-		38BFFE2D1B038FF600436F09 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
-		38BFFE331B03903200436F09 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
-		38BFFE351B03906B00436F09 /* BDDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDeviceUtil.h; sourceTree = "<group>"; };
-		38BFFE361B03906B00436F09 /* BDDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDeviceUtil.m; sourceTree = "<group>"; };
 		38DC4ECF1B424D3B00DDF851 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		38DC4ED11B424D4500DDF851 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		38DC4ED31B424D4E00DDF851 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		38DC4ED51B424D5700DDF851 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		38DC4ED71B424D6000DDF851 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
-		38DC4EDB1B4257E200DDF851 /* CrabCrashReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrabCrashReport.h; sourceTree = "<group>"; };
-		38DC4EDC1B4257E200DDF851 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
-		38DC4EDD1B4257E200DDF851 /* libCrabCrashReport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrabCrashReport.a; sourceTree = "<group>"; };
-		38DC4F581B42793A00DDF851 /* BaiduMobStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobStat.h; sourceTree = "<group>"; };
-		38DC4F591B42794500DDF851 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
 		38DC4F5B1B427A8300DDF851 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		38DC4F5D1B427A9400DDF851 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		38DC4F5F1B427ACE00DDF851 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
@@ -116,15 +95,12 @@
 				38DC4F5E1B427A9400DDF851 /* CoreTelephony.framework in Frameworks */,
 				38DC4F5C1B427A8300DDF851 /* CoreLocation.framework in Frameworks */,
 				38DC4ED81B424D6000DDF851 /* libz.1.2.5.dylib in Frameworks */,
-				38DC4EDF1B4257E200DDF851 /* libCrabCrashReport.a in Frameworks */,
 				38DC4ED41B424D4E00DDF851 /* QuartzCore.framework in Frameworks */,
 				38DC4ED21B424D4500DDF851 /* MobileCoreServices.framework in Frameworks */,
 				38DC4ED01B424D3B00DDF851 /* CFNetwork.framework in Frameworks */,
-				38DC4EDE1B4257E200DDF851 /* CrashReporter.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				38DC4F5A1B42794500DDF851 /* libBaiduMobStat.a in Frameworks */,
 				278DB76B2081918DBE8910D1 /* libPods-BDLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,101 +119,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38BFFE0F1B038E2D00436F09 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				38DC4ED91B4257A600DDF851 /* OpenSource */,
-				38BFFE101B038E2D00436F09 /* Assets */,
-				38BFFE121B038E2D00436F09 /* Classes */,
-			);
-			name = Pod;
-			path = ../../Pod;
-			sourceTree = "<group>";
-		};
-		38BFFE101B038E2D00436F09 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		38BFFE121B038E2D00436F09 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				38BFFE341B03906B00436F09 /* Util */,
-				38BFFE321B03903200436F09 /* Macro */,
-				38BFFE241B038FF600436F09 /* BaseViewController */,
-				38BFFE2B1B038FF600436F09 /* Category */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		38BFFE241B038FF600436F09 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				38BFFE251B038FF600436F09 /* BaseHttpRequest.h */,
-				38BFFE261B038FF600436F09 /* BaseHttpRequest.m */,
-				38BFFE291B038FF600436F09 /* BaseViewController.h */,
-				38BFFE2A1B038FF600436F09 /* BaseViewController.m */,
-			);
-			path = BaseViewController;
-			sourceTree = "<group>";
-		};
-		38BFFE2B1B038FF600436F09 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				38BFFE2C1B038FF600436F09 /* UIView+Util.h */,
-				38BFFE2D1B038FF600436F09 /* UIView+Util.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		38BFFE321B03903200436F09 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				38BFFE331B03903200436F09 /* AppMacro.h */,
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
-		38BFFE341B03906B00436F09 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				38BFFE351B03906B00436F09 /* BDDeviceUtil.h */,
-				38BFFE361B03906B00436F09 /* BDDeviceUtil.m */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		38DC4ED91B4257A600DDF851 /* OpenSource */ = {
-			isa = PBXGroup;
-			children = (
-				38DC4EDA1B4257E200DDF851 /* CrabCrashReportSDK */,
-				38DC4F4F1B42778000DDF851 /* Mtj */,
-			);
-			path = OpenSource;
-			sourceTree = "<group>";
-		};
-		38DC4EDA1B4257E200DDF851 /* CrabCrashReportSDK */ = {
-			isa = PBXGroup;
-			children = (
-				38DC4EDB1B4257E200DDF851 /* CrabCrashReport.h */,
-				38DC4EDC1B4257E200DDF851 /* CrashReporter.framework */,
-				38DC4EDD1B4257E200DDF851 /* libCrabCrashReport.a */,
-			);
-			path = CrabCrashReportSDK;
-			sourceTree = "<group>";
-		};
-		38DC4F4F1B42778000DDF851 /* Mtj */ = {
-			isa = PBXGroup;
-			children = (
-				38DC4F591B42794500DDF851 /* libBaiduMobStat.a */,
-				38DC4F581B42793A00DDF851 /* BaiduMobStat.h */,
-			);
-			name = Mtj;
-			path = ZEasing/Example/../../Mtj;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -283,7 +164,6 @@
 		6003F593195388D20070C39A /* BDLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				38BFFE0F1B038E2D00436F09 /* Pod */,
 				6003F59C195388D20070C39A /* ZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -513,12 +393,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BFFE2E1B038FF600436F09 /* BaseHttpRequest.m in Sources */,
-				38BFFE311B038FF600436F09 /* UIView+Util.m in Sources */,
-				38BFFE301B038FF600436F09 /* BaseViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZViewController.m in Sources */,
-				38BFFE371B03906B00436F09 /* BDDeviceUtil.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,18 +533,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Classes/OpenSource/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/OpenSource/CrabCrashReportSDK,
+					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDLibrary/BDLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BDLibrary/BDLibrary-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Classes/OpenSource/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/OpenSource/CrabCrashReportSDK,
-					"/Users/zhuayi/Downloads/ios_3.4_/ios_api/universal-bin",
-					/Users/zhuayi/work/app/BDLibrary/Pod/OpenSource/Mtj,
+					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
+					/Users/zhuayi/work/app/BDLibrary/Pod/Component/Mtj,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -683,18 +556,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Classes/OpenSource/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/OpenSource/CrabCrashReportSDK,
+					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDLibrary/BDLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BDLibrary/BDLibrary-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Classes/OpenSource/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/OpenSource/CrabCrashReportSDK,
-					"/Users/zhuayi/Downloads/ios_3.4_/ios_api/universal-bin",
-					/Users/zhuayi/work/app/BDLibrary/Pod/OpenSource/Mtj,
+					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
+					/Users/zhuayi/work/app/BDLibrary/Pod/Component/Mtj,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

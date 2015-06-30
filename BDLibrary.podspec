@@ -35,33 +35,24 @@ s.prefix_header_contents = '#import <UIKit/UIKit.h>'
 #################################### Base ######################################################
 
     s.subspec 'Base' do | base |
-        base.source_files = 'Pod/Classes/**/*', 'Pod/OpenSource/CrabCrashReportSDK/**/*.h', 'Pod/OpenSource/Mtj/BaiduMobStat.h'
+        base.source_files = 'Pod/Classes/**/*', 'Pod/Component/CrabCrashReportSDK/**/*.h', 'Pod/Component/Mtj/BaiduMobStat.h'
         base.public_header_files = 'Pod/Classes/**/*.h'
         base.libraries  = 'z.1.2.5', 'stdc++'
-        base.vendored_frameworks = 'Pod/OpenSource/CrabCrashReportSDK/CrashReporter.framework'
-        base.vendored_libraries = 'Pod/OpenSource/CrabCrashReportSDK/libCrabCrashReport.a','Pod/OpenSource/Mtj/libBaiduMobStat.a'
+        base.vendored_frameworks = 'Pod/Component/CrabCrashReportSDK/CrashReporter.framework'
+        base.vendored_libraries = 'Pod/Component/CrabCrashReportSDK/libCrabCrashReport.a','Pod/Component/Mtj/libBaiduMobStat.a'
         base.frameworks = 'CoreLocation', 'CoreTelephony'
     end
 
 ############################################################################################################
 
 
-#################################### ZEasing ######################################################
-
-    s.subspec 'ZEasing' do | zEasing |
-        zEasing.source_files = 'Pod/OpenSource/ZEasing/Pod/Classes/**/*'
-        zEasing.public_header_files = 'Pod/OpenSource/ZEasing/Pod/Classes/**/*.h'
-    end
-
-############################################################################################################
-
 
 #################################### test ###############################################################
 #
-#s.subspec 'test' do | test |
-#test.source_files = 'Pod/OpenSource/test/test/Class/**/*'
-#test.public_header_files = 'Pod/OpenSource/test/test/Class/**/*.h'
-#end
+s.subspec 'ceshi' do | ceshi |
+test.source_files = 'Pod/Component/ceshi/ceshi/Class/**/*'
+test.public_header_files = 'Pod/Component/ceshi/ceshi/Class/**/*.h'
+end
 #
 ##########################################################################################################
 

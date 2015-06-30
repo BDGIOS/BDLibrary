@@ -2,7 +2,7 @@
   "name": "BDLibrary",
   "version": "0.1.0",
   "summary": "百度大数据的静态库",
-  "description": "                       百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库\n",
+  "description": "百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库百度大数据的静态库\n",
   "homepage": "https://github.com/zhuayi/BDLibrary",
   "license": "MIT",
   "authors": {
@@ -16,15 +16,7 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "BDLibrary": [
-      "Pod/Assets/*.png"
-    ]
-  },
   "prefix_header_contents": "#import <UIKit/UIKit.h>",
-  "vendored_frameworks": "Pod/OpenSource/CrabCrashReportSDK/CrashReporter.framework",
-  "vendored_libraries": "Pod/OpenSource/CrabCrashReportSDK/libCrabCrashReport.a",
   "frameworks": "UIKit",
   "libraries": "z.1.2.5",
   "dependencies": {
@@ -34,15 +26,31 @@
   },
   "subspecs": [
     {
-      "name": "CrabCrashReport",
-      "source_files": "Pod/OpenSource/CrabCrashReportSDK/**/*.h",
-      "public_header_files": "Pod/OpenSource/CrabCrashReportSDK/**/*.h",
-      "libraries": "z.1.2.5"
+      "name": "Base",
+      "source_files": [
+        "Pod/Classes/**/*",
+        "Pod/Component/CrabCrashReportSDK/**/*.h",
+        "Pod/Component/Mtj/BaiduMobStat.h"
+      ],
+      "public_header_files": "Pod/Classes/**/*.h",
+      "libraries": [
+        "z.1.2.5",
+        "stdc++"
+      ],
+      "vendored_frameworks": "Pod/Component/CrabCrashReportSDK/CrashReporter.framework",
+      "vendored_libraries": [
+        "Pod/Component/CrabCrashReportSDK/libCrabCrashReport.a",
+        "Pod/Component/Mtj/libBaiduMobStat.a"
+      ],
+      "frameworks": [
+        "CoreLocation",
+        "CoreTelephony"
+      ]
     },
     {
-      "name": "ZEasing",
-      "source_files": "Pod/OpenSource/ZEasing/Pod/Classes/**/*",
-      "public_header_files": "Pod/OpenSource/ZEasing/Pod/Classes/**/*.h"
+      "name": "test",
+      "source_files": "Pod/Component/ceshi/ceshi/Class/**/*",
+      "public_header_files": "Pod/Component/ceshi/ceshi/Class/**/*.h"
     }
   ]
 }

@@ -1,1 +1,1 @@
-../../../../../Pod/OpenSource/CrabCrashReportSDK/CrabCrashReport.h
+../../../../../Pod/Component/CrabCrashReportSDK/CrabCrashReport.h

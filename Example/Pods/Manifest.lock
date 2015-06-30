@@ -1,36 +1,35 @@
 PODS:
-  - AFNetworking (2.5.3):
-    - AFNetworking/NSURLConnection (= 2.5.3)
-    - AFNetworking/NSURLSession (= 2.5.3)
-    - AFNetworking/Reachability (= 2.5.3)
-    - AFNetworking/Security (= 2.5.3)
-    - AFNetworking/Serialization (= 2.5.3)
-    - AFNetworking/UIKit (= 2.5.3)
-  - AFNetworking/NSURLConnection (2.5.3):
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.3):
+  - AFNetworking/NSURLSession (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.3)
-  - AFNetworking/Security (2.5.3)
-  - AFNetworking/Serialization (2.5.3)
-  - AFNetworking/UIKit (2.5.3):
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - BDLibrary (0.1.0):
     - AFNetworking (~> 2.3)
-    - BDLibrary/CrabCrashReport (= 0.1.0)
-    - BDLibrary/ZEasing (= 0.1.0)
-  - BDLibrary/CrabCrashReport (0.1.0):
+    - BDLibrary/Base (= 0.1.0)
+    - BDLibrary/test (= 0.1.0)
+  - BDLibrary/Base (0.1.0):
     - AFNetworking (~> 2.3)
-  - BDLibrary/ZEasing (0.1.0):
+  - BDLibrary/test (0.1.0):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.5.0)
   - BDLibrary (from `../`)
 
 EXTERNAL SOURCES:
@@ -38,7 +37,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
-  BDLibrary: 49ddd59bb2be53f69f1058f0e3cc5dcae516c628
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  BDLibrary: c897981742edae776f58a7152b1e7d71c69a0eca
 
 COCOAPODS: 0.37.0.beta.1

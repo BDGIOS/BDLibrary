@@ -60,9 +60,9 @@
 #define COCOAPODS_VERSION_MINOR_BDLibrary_Base 1
 #define COCOAPODS_VERSION_PATCH_BDLibrary_Base 0
 
-// BDLibrary/test
-#define COCOAPODS_POD_AVAILABLE_BDLibrary_test
-#define COCOAPODS_VERSION_MAJOR_BDLibrary_test 0
-#define COCOAPODS_VERSION_MINOR_BDLibrary_test 1
-#define COCOAPODS_VERSION_PATCH_BDLibrary_test 0
+// BDLibrary/ceshi
+#define COCOAPODS_POD_AVAILABLE_BDLibrary_ceshi
+#define COCOAPODS_VERSION_MAJOR_BDLibrary_ceshi 0
+#define COCOAPODS_VERSION_MINOR_BDLibrary_ceshi 1
+#define COCOAPODS_VERSION_PATCH_BDLibrary_ceshi 0
 

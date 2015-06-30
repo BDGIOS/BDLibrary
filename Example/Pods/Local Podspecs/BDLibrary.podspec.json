@@ -48,7 +48,7 @@
       ]
     },
     {
-      "name": "test",
+      "name": "ceshi",
       "source_files": "Pod/Component/ceshi/ceshi/Class/**/*",
       "public_header_files": "Pod/Component/ceshi/ceshi/Class/**/*.h"
     }

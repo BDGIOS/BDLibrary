@@ -47,11 +47,11 @@ s.prefix_header_contents = '#import <UIKit/UIKit.h>'
 
 
 
-#################################### test ###############################################################
+#################################### ceshi ###############################################################
 #
 s.subspec 'ceshi' do | ceshi |
-test.source_files = 'Pod/Component/ceshi/ceshi/Class/**/*'
-test.public_header_files = 'Pod/Component/ceshi/ceshi/Class/**/*.h'
+ceshi.source_files = 'Pod/Component/ceshi/ceshi/Class/**/*'
+ceshi.public_header_files = 'Pod/Component/ceshi/ceshi/Class/**/*.h'
 end
 #
 ##########################################################################################################

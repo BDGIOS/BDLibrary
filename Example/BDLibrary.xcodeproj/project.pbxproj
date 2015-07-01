@@ -708,15 +708,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/CrabCrashReportSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDLibrary/BDLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BDLibrary/BDLibrary-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/Mtj,
+					../Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/Mtj,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -731,15 +731,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/CrabCrashReportSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDLibrary/BDLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BDLibrary/BDLibrary-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/Mtj,
+					../Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/Mtj,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -755,7 +755,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/CrabCrashReportSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -766,8 +766,8 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/Mtj,
+					../Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/Mtj,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -784,15 +784,15 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/CrabCrashReportSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/CrabCrashReportSDK,
-					/Users/zhuayi/work/app/BDLibrary/Pod/Component/Mtj,
+					../Pod/Component/CrabCrashReportSDK,
+					../Pod/Component/Mtj,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

@@ -37,14 +37,36 @@ s.prefix_header_contents = '#import <UIKit/UIKit.h>'
     s.subspec 'Base' do | base |
         base.source_files = 'Pod/Classes/**/*', 'Pod/Component/CrabCrashReportSDK/**/*.h', 'Pod/Component/Mtj/BaiduMobStat.h'
         base.public_header_files = 'Pod/Classes/**/*.h'
-        base.libraries  = 'z.1.2.5', 'stdc++'
-        base.vendored_frameworks = 'Pod/Component/CrabCrashReportSDK/CrashReporter.framework'
-        base.vendored_libraries = 'Pod/Component/CrabCrashReportSDK/libCrabCrashReport.a','Pod/Component/Mtj/libBaiduMobStat.a'
-        base.frameworks = 'CoreLocation', 'CoreTelephony'
+
     end
 
 ############################################################################################################
 
+
+#################################### CrashReporter #######################################################
+#
+s.subspec 'CrashReporter' do | crashReporter |
+#crashReporter.source_files = 'Pod/Component/CrabCrashReportSDK/**'
+crashReporter.public_header_files = 'Pod/Component/CrabCrashReportSDK/*.h'
+crashReporter.vendored_frameworks = 'Pod/Component/CrabCrashReportSDK/CrashReporter.framework'
+crashReporter.vendored_libraries = 'Pod/Component/CrabCrashReportSDK/libCrabCrashReport.a'
+crashReporter.libraries  = 'z.1.2.5'
+end
+#
+##########################################################################################################
+
+
+#################################### Mtj #######################################################
+#
+s.subspec 'Mtj' do | mtj |
+#crashReporter.source_files = 'Pod/Component/Mtj/**'
+mtj.public_header_files = 'Pod/Component/Mtj/*.h'
+mtj.vendored_libraries = 'Pod/Component/Mtj/libBaiduMobStat.a'
+mtj.libraries  = 'stdc++'
+mtj.frameworks = 'CoreLocation', 'CoreTelephony'
+end
+#
+##########################################################################################################
 
 
 #################################### ceshi ###############################################################

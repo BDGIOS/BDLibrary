@@ -17,7 +17,7 @@ BDLibrary is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BDLibrary"
+pod 'BDLibrary/Base', :git => 'https://github.com/zhuayi/BDLibrary.git'
 ```
 
 ## Author
@@ -27,3 +27,60 @@ zhuayi, 2179942@qq.com
 ## License
 
 BDLibrary is available under the MIT license. See the LICENSE file for more info.
+
+
+##Crab平台安装
+
+
+> BdLibrary集成了 Crash 平台,  
+
+### 申请
+
+> [http://crab.baidu.com/batsdk/](http://crab.baidu.com/batsdk/)
+
+
+### 安装
+pod 'BDLibrary/Crash', :git => 'https://github.com/zhuayi/BDLibrary.git'
+
+### 集成
+
+> 在 ***appdelegate.m*** 里的 ***didFinishLaunchingWithOptions*** 方法里加入以下代码
+
+```objective-c
+// crash 收集
+[[CrabCrashReport sharedInstance] initCrashReporterWithAppKey:APPkey
+AndVersion:[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+AndChannel:@"AppStore"];
+```
+
+
+
+##Mtj平台安装
+
+
+> BdLibrary集成了 Mtj 平台,  
+
+### 申请
+
+> [http://mtj.baidu.com/batsdk/](http://mtj.baidu.com)
+
+
+### 安装
+pod 'BDLibrary/Mtj', :git => 'https://github.com/zhuayi/BDLibrary.git'
+
+### 集成
+
+> 在 ***appdelegate.m*** 里的 ***didFinishLaunchingWithOptions*** 方法里加入以下代码
+
+```objective-c
+// Mtj
+BaiduMobStat *statTracker = [BaiduMobStat defaultStat];
+statTracker.enableExceptionLog = NO;
+statTracker.logStrategy = BaiduMobStatLogStrategyAppLaunch;
+statTracker.logSendInterval = 1;
+statTracker.logSendWifiOnly = YES;
+statTracker.sessionResumeInterval = 10;
+statTracker.shortAppVersion =  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+statTracker.enableDebugOn = YES;
+[statTracker startWithAppId:APPKey];
+```

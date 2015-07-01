@@ -35,7 +35,7 @@ s.prefix_header_contents = '#import <UIKit/UIKit.h>'
 #################################### Base ######################################################
 
     s.subspec 'Base' do | base |
-        base.source_files = 'Pod/Classes/**/*', 'Pod/Component/CrabCrashReportSDK/**/*.h', 'Pod/Component/Mtj/BaiduMobStat.h'
+        base.source_files = 'Pod/Classes/**/*',
         base.public_header_files = 'Pod/Classes/**/*.h'
 
     end
@@ -59,7 +59,7 @@ end
 #################################### Mtj #######################################################
 #
 s.subspec 'Mtj' do | mtj |
-#crashReporter.source_files = 'Pod/Component/Mtj/**'
+mtj.source_files =  'Pod/Component/Mtj/**'
 mtj.public_header_files = 'Pod/Component/Mtj/*.h'
 mtj.vendored_libraries = 'Pod/Component/Mtj/libBaiduMobStat.a'
 mtj.libraries  = 'stdc++'

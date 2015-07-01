@@ -1,8 +1,6 @@
-FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/Component/CrabCrashReportSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BDLibrary"
-LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/Component/CrabCrashReportSDK" "$(PODS_ROOT)/../../Pod/Component/Mtj"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/BDLibrary"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"BaiduMobStat" -l"CrabCrashReport" -l"Pods-BDLibrary-AFNetworking" -l"Pods-BDLibrary-BDLibrary" -l"stdc++" -l"z.1.2.5" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "CrashReporter" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-BDLibrary-AFNetworking" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

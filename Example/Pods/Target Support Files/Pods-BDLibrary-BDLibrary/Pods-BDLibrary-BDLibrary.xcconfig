@@ -1,3 +1,0 @@
-PODS_BDLIBRARY_BDLIBRARY_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/Component/CrabCrashReportSDK"
-PODS_BDLIBRARY_BDLIBRARY_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/Component/CrabCrashReportSDK" "$(PODS_ROOT)/../../Pod/Component/Mtj"
-PODS_BDLIBRARY_BDLIBRARY_OTHER_LDFLAGS = -l"BaiduMobStat" -l"CrabCrashReport" -l"stdc++" -l"z.1.2.5" -framework "CoreLocation" -framework "CoreTelephony" -framework "CrashReporter" -framework "UIKit"

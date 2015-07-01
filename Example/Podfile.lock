@@ -21,15 +21,18 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - BDLibrary (0.1.0):
-    - AFNetworking (~> 2.3)
     - BDLibrary/Base (= 0.1.0)
     - BDLibrary/ceshi (= 0.1.0)
+    - BDLibrary/CrashReporter (= 0.1.0)
+    - BDLibrary/Mtj (= 0.1.0)
   - BDLibrary/Base (0.1.0):
     - AFNetworking (~> 2.3)
-  - BDLibrary/ceshi (0.1.0):
-    - AFNetworking (~> 2.3)
+  - BDLibrary/ceshi (0.1.0)
+  - BDLibrary/CrashReporter (0.1.0)
+  - BDLibrary/Mtj (0.1.0)
 
 DEPENDENCIES:
+  - AFNetworking (> 1.5.3)
   - BDLibrary (from `../`)
 
 EXTERNAL SOURCES:
@@ -38,6 +41,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
-  BDLibrary: 504bf7b88b40077c7168b4b87f8cf98238999ecf
+  BDLibrary: 30b12214b1eff5e9d6246a0c1a62f151cfe7ba43
 
 COCOAPODS: 0.37.0.beta.1

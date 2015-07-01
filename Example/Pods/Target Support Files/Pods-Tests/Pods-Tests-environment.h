@@ -60,6 +60,18 @@
 #define COCOAPODS_VERSION_MINOR_BDLibrary_Base 1
 #define COCOAPODS_VERSION_PATCH_BDLibrary_Base 0
 
+// BDLibrary/CrashReporter
+#define COCOAPODS_POD_AVAILABLE_BDLibrary_CrashReporter
+#define COCOAPODS_VERSION_MAJOR_BDLibrary_CrashReporter 0
+#define COCOAPODS_VERSION_MINOR_BDLibrary_CrashReporter 1
+#define COCOAPODS_VERSION_PATCH_BDLibrary_CrashReporter 0
+
+// BDLibrary/Mtj
+#define COCOAPODS_POD_AVAILABLE_BDLibrary_Mtj
+#define COCOAPODS_VERSION_MAJOR_BDLibrary_Mtj 0
+#define COCOAPODS_VERSION_MINOR_BDLibrary_Mtj 1
+#define COCOAPODS_VERSION_PATCH_BDLibrary_Mtj 0
+
 // BDLibrary/ceshi
 #define COCOAPODS_POD_AVAILABLE_BDLibrary_ceshi
 #define COCOAPODS_VERSION_MAJOR_BDLibrary_ceshi 0

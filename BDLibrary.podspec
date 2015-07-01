@@ -37,52 +37,49 @@ s.prefix_header_contents = '#import <UIKit/UIKit.h>'
     s.subspec 'Base' do | base |
         base.source_files = 'Pod/Classes/**/*',
         base.public_header_files = 'Pod/Classes/**/*.h'
-
+        base.frameworks = 'UIKit'
+        base.dependency 'AFNetworking', '~> 2.3'
     end
 
-############################################################################################################
+################################################################################################
 
 
-#################################### CrashReporter #######################################################
-#
+#################################### CrashReporter #############################################
+
 s.subspec 'CrashReporter' do | crashReporter |
 crashReporter.source_files = 'Pod/Component/CrabCrashReportSDK/*.h'
 crashReporter.public_header_files = 'Pod/Component/CrabCrashReportSDK/*.h'
 crashReporter.vendored_frameworks = 'Pod/Component/CrabCrashReportSDK/CrashReporter.framework'
 crashReporter.vendored_libraries = 'Pod/Component/CrabCrashReportSDK/libCrabCrashReport.a'
 crashReporter.libraries  = 'z.1.2.5'
+crashReporter.requires_arc = true
 end
-#
-##########################################################################################################
+
+################################################################################################
 
 
 #################################### Mtj #######################################################
-#
+
 s.subspec 'Mtj' do | mtj |
-#mtj.source_files =  'Pod/Component/Mtj/*.h'
-mtj.public_header_files = 'Pod/Component/Mtj/*.h'
+mtj.source_files =  'Pod/Component/Mtj/BaiduMobStat.h'
+#mtj.public_header_files = 'Pod/Component/Mtj/BaiduMobStat.h'
 mtj.vendored_libraries = 'Pod/Component/Mtj/libBaiduMobStat.a'
-mtj.libraries  = 'stdc++'
-mtj.frameworks = 'CoreLocation', 'CoreTelephony'
+mtj.libraries  = 'z.1.2.5', 'stdc++'
+mtj.frameworks = 'CoreLocation', 'CoreTelephony', 'Security', 'SystemConfiguration', 'CoreGraphics'
+
 end
-#
-##########################################################################################################
+
+################################################################################################
 
 
-#################################### ceshi ###############################################################
-#
+#################################### ceshi #####################################################
+
 s.subspec 'ceshi' do | ceshi |
 ceshi.source_files = 'Pod/Component/ceshi/ceshi/Class/**/*'
 ceshi.public_header_files = 'Pod/Component/ceshi/ceshi/Class/**/*.h'
 end
-#
-##########################################################################################################
 
-
-
-s.frameworks = 'UIKit'
-s.libraries  = 'z.1.2.5'
-s.dependency 'AFNetworking', '~> 2.3'
+################################################################################################
 
 
 end

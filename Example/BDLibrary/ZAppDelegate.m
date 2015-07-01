@@ -7,12 +7,32 @@
 //
 
 #import "ZAppDelegate.h"
+#import "CrabCrashReport.h"
+#import "BaiduMobStat.h"
 
 @implementation ZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // crash 收集
+    [[CrabCrashReport sharedInstance] initCrashReporterWithAppKey:@"123"
+                                                       AndVersion:[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+                                                       AndChannel:@"AppStore"];
+    
+    
+    // Mtj
+    BaiduMobStat *statTracker = [BaiduMobStat defaultStat];
+    statTracker.enableExceptionLog = NO;
+    statTracker.logStrategy = BaiduMobStatLogStrategyAppLaunch;
+    statTracker.logSendInterval = 1;
+    statTracker.logSendWifiOnly = YES;
+    statTracker.sessionResumeInterval = 10;
+    statTracker.shortAppVersion =  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    statTracker.enableDebugOn = YES;
+    [statTracker startWithAppId:@"123"];
+    
     return YES;
 }
 							

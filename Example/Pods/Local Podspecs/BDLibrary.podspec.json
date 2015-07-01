@@ -17,35 +17,44 @@
   },
   "requires_arc": true,
   "prefix_header_contents": "#import <UIKit/UIKit.h>",
-  "frameworks": "UIKit",
-  "libraries": "z.1.2.5",
-  "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
-    ]
-  },
   "subspecs": [
     {
       "name": "Base",
+      "public_header_files": "Pod/Classes/**/*.h",
       "source_files": [
         "Pod/Classes/**/*",
-        "Pod/Component/CrabCrashReportSDK/**/*.h",
-        "Pod/Component/Mtj/BaiduMobStat.h"
+        "Pod/Classes/**/*.h"
       ],
-      "public_header_files": "Pod/Classes/**/*.h",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "AFNetworking": [
+          "~> 2.3"
+        ]
+      }
+    },
+    {
+      "name": "CrashReporter",
+      "source_files": "Pod/Component/CrabCrashReportSDK/*.h",
+      "public_header_files": "Pod/Component/CrabCrashReportSDK/*.h",
+      "vendored_frameworks": "Pod/Component/CrabCrashReportSDK/CrashReporter.framework",
+      "vendored_libraries": "Pod/Component/CrabCrashReportSDK/libCrabCrashReport.a",
+      "libraries": "z.1.2.5",
+      "requires_arc": true
+    },
+    {
+      "name": "Mtj",
+      "source_files": "Pod/Component/Mtj/BaiduMobStat.h",
+      "public_header_files": "Pod/Component/Mtj/BaiduMobStat.h",
+      "vendored_libraries": "Pod/Component/Mtj/libBaiduMobStat.a",
       "libraries": [
         "z.1.2.5",
         "stdc++"
       ],
-      "vendored_frameworks": "Pod/Component/CrabCrashReportSDK/CrashReporter.framework",
-      "vendored_libraries": [
-        "Pod/Component/CrabCrashReportSDK/libCrabCrashReport.a",
-        "Pod/Component/Mtj/libBaiduMobStat.a"
-      ],
       "frameworks": [
         "CoreLocation",
         "CoreTelephony"
-      ]
+      ],
+      "requires_arc": true
     },
     {
       "name": "ceshi",

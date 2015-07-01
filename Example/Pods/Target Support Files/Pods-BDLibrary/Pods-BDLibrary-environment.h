@@ -48,21 +48,3 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 4
 
-// BDLibrary
-#define COCOAPODS_POD_AVAILABLE_BDLibrary
-#define COCOAPODS_VERSION_MAJOR_BDLibrary 0
-#define COCOAPODS_VERSION_MINOR_BDLibrary 1
-#define COCOAPODS_VERSION_PATCH_BDLibrary 0
-
-// BDLibrary/Base
-#define COCOAPODS_POD_AVAILABLE_BDLibrary_Base
-#define COCOAPODS_VERSION_MAJOR_BDLibrary_Base 0
-#define COCOAPODS_VERSION_MINOR_BDLibrary_Base 1
-#define COCOAPODS_VERSION_PATCH_BDLibrary_Base 0
-
-// BDLibrary/ceshi
-#define COCOAPODS_POD_AVAILABLE_BDLibrary_ceshi
-#define COCOAPODS_VERSION_MAJOR_BDLibrary_ceshi 0
-#define COCOAPODS_VERSION_MINOR_BDLibrary_ceshi 1
-#define COCOAPODS_VERSION_PATCH_BDLibrary_ceshi 0
-

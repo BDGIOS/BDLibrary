@@ -40,7 +40,11 @@ BDLibrary is available under the MIT license. See the LICENSE file for more info
 
 
 ### 安装
+
+```shell
 pod 'BDLibrary/Crash', :git => 'https://github.com/zhuayi/BDLibrary.git'
+```
+
 
 ### 集成
 
@@ -62,11 +66,14 @@ AndChannel:@"AppStore"];
 
 ### 申请
 
-> [http://mtj.baidu.com/batsdk/](http://mtj.baidu.com)
+> [http://mtj.baidu.com/](http://mtj.baidu.com)
 
 
 ### 安装
+
+```shell
 pod 'BDLibrary/Mtj', :git => 'https://github.com/zhuayi/BDLibrary.git'
+```
 
 ### 集成
 

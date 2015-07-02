@@ -7,6 +7,7 @@
 //
 
 #import "ZAppDelegate.h"
+#import "AppMacro.h"
 #import "CrabCrashReport.h"
 #import "BaiduMobStat.h"
 
@@ -16,9 +17,11 @@
 {
     // Override point for customization after application launch.
     
+    NSLog(@"APP_VERSION : %@, %@", APP_Bundle_Identifier, [[NSBundle mainBundle] infoDictionary]);
+    return YES;
     // crash 收集
     [[CrabCrashReport sharedInstance] initCrashReporterWithAppKey:@"123"
-                                                       AndVersion:[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+                                                       AndVersion:APP_Bundle_Version
                                                        AndChannel:@"AppStore"];
     
     
@@ -29,7 +32,7 @@
     statTracker.logSendInterval = 1;
     statTracker.logSendWifiOnly = YES;
     statTracker.sessionResumeInterval = 10;
-    statTracker.shortAppVersion =  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    statTracker.shortAppVersion =  APP_VERSION;
     statTracker.enableDebugOn = YES;
     [statTracker startWithAppId:@"123"];
     

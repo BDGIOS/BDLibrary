@@ -62,7 +62,7 @@ AndChannel:@"AppStore"];
 ##Mtj平台安装
 
 
-> BdLibrary集成了 Mtj 平台,  
+> 百度移动统计 (Mtj) 是百度为 IOS 平台提供的应用统计工具(以下简称 Mtj)。 该文档提供了对如何使用 SDK 的一个详细说明。,  
 
 ### 申请
 

@@ -42,6 +42,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3813C9551B44E86000EA76CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3813C9501B44E86000EA76CA /* Passport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3813C9271B44E85400EA76CA;
+			remoteInfo = Passport;
+		};
+		3813C9571B44E86000EA76CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3813C9501B44E86000EA76CA /* Passport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3813C9401B44E85400EA76CA;
+			remoteInfo = PassportTests;
+		};
 		38DC50D41B43B83E00DDF851 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38DC50CF1B43B83E00DDF851 /* ceshi.xcodeproj */;
@@ -67,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		13529E6175F1925DA4A93EDE /* Pods-BDLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDLibrary/Pods-BDLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		3813C9501B44E86000EA76CA /* Passport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Passport.xcodeproj; path = Passport/Passport.xcodeproj; sourceTree = "<group>"; };
 		38DC4ECF1B424D3B00DDF851 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		38DC4ED11B424D4500DDF851 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		38DC4ED31B424D4E00DDF851 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -158,6 +173,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3813C9511B44E86000EA76CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3813C9561B44E86000EA76CA /* Passport.app */,
+				3813C9581B44E86000EA76CA /* PassportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		38DC50861B43B78D00DDF851 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +253,7 @@
 		38DC50981B43B78D00DDF851 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				3813C9501B44E86000EA76CA /* Passport.xcodeproj */,
 				38DC50CF1B43B83E00DDF851 /* ceshi.xcodeproj */,
 				38DC50AF1B43B78D00DDF851 /* CrabCrashReportSDK */,
 				38DC50B31B43B78D00DDF851 /* Mtj */,
@@ -446,6 +471,10 @@
 					ProductGroup = 38DC50D01B43B83E00DDF851 /* Products */;
 					ProjectRef = 38DC50CF1B43B83E00DDF851 /* ceshi.xcodeproj */;
 				},
+				{
+					ProductGroup = 3813C9511B44E86000EA76CA /* Products */;
+					ProjectRef = 3813C9501B44E86000EA76CA /* Passport.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -456,6 +485,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		3813C9561B44E86000EA76CA /* Passport.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Passport.app;
+			remoteRef = 3813C9551B44E86000EA76CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3813C9581B44E86000EA76CA /* PassportTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PassportTests.xctest;
+			remoteRef = 3813C9571B44E86000EA76CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		38DC50D51B43B83E00DDF851 /* ceshi.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;

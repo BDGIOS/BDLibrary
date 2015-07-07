@@ -5,6 +5,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'BDLibrary', :exclusive => true do
     #pod "BDLibrary", :path => "../"
     pod 'AFNetworking', '> 1.5.3'
+    
+    
+    #passport
+    pod 'XMLDictionary', '~> 1.4'
+    pod 'Reachability', '~> 3.2'
 end
 
 target 'Tests', :exclusive => true do

@@ -27,9 +27,6 @@ zhuayi, 2179942@qq.com
 ## License
 
 BDLibrary is available under the MIT license. See the LICENSE file for more info.
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 
 ##Crab平台安装
 
@@ -93,9 +90,4 @@ statTracker.shortAppVersion =  [[[NSBundle mainBundle] infoDictionary] objectFor
 statTracker.enableDebugOn = YES;
 [statTracker startWithAppId:APPKey];
 ```
-=======
-just a test
->>>>>>> pr/1
-=======
-tttttttttt
->>>>>>> 140882bdd15df3aec51989c8e24bd0ddd0450bb5
+

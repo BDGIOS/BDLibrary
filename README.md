@@ -27,4 +27,3 @@ zhuayi, 2179942@qq.com
 ## License
 
 BDLibrary is available under the MIT license. See the LICENSE file for more info.
-just a test
